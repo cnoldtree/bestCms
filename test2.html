@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr" lang="en">
+<body>
+	<script type="text/javascript">
+		var valueTest = prompt( "How many Euros do you wish to Convert", "" );
+		document.write( typeof( valueTest ) );
+		document.write( "<br />");
+	</script>
+	
+	<script type="text/javascript">
+		var myStringPrimitive="abc";
+		document.write( typeof( myStringPrimitive ) );
+		document.write( "<br>" );
+		document.write( myStringPrimitive.length );
+		document.write( "<br>" );
+		document.write( typeof( myStringPrimitive ) );		
+	</script>
+	
+	<script type="text/javascript">
+		var myStringObject = new String( "abc" );
+		document.write( "<br />" );
+		document.write(typeof( myStringObject ));
+		document.write( "<br />" );
+		document.write( myStringObject.length );
+		document.write( "<br />" );
+		document.write( typeof( myStringObject ) );
+	</script>
+</body>
+</html>
